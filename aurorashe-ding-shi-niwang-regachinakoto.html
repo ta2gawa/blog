@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
         <meta charset="utf-8" />
-        <title>びぼーろく - ta2gawa</title>
+        <title>Aurora設定時に忘れがちなこと</title>
         <link rel="stylesheet" href="https://ta2gawa.github.io/blog/theme/css/main.css" />
 </head>
 
@@ -10,14 +10,19 @@
         <header id="banner" class="body">
                 <h1><a href="https://ta2gawa.github.io/blog/">びぼーろく </a></h1>
                 <nav><ul>
-                    <li><a href="https://ta2gawa.github.io/blog/category/ji-shu-memo.html">技術メモ</a></li>
+                    <li class="active"><a href="https://ta2gawa.github.io/blog/category/ji-shu-memo.html">技術メモ</a></li>
                     <li><a href="https://ta2gawa.github.io/blog/category/test.html">Test</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="https://ta2gawa.github.io/blog/aurorashe-ding-shi-niwang-regachinakoto.html" rel="bookmark"
+           title="Permalink to Aurora設定時に忘れがちなこと">Aurora設定時に忘れがちなこと</a></h1>
+    </header>
 
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="https://ta2gawa.github.io/blog/aurorashe-ding-shi-niwang-regachinakoto.html">Aurora設定時に忘れがちなこと</a></h1>
+    <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2020-08-10T05:00:00+09:00">
                 Published: 月 10 8月 2020
@@ -28,42 +33,17 @@
         </address>
 <p>In <a href="https://ta2gawa.github.io/blog/category/ji-shu-memo.html">技術メモ</a>.</p>
 <p>tags: <a href="https://ta2gawa.github.io/blog/tag/aws.html">AWS</a> <a href="https://ta2gawa.github.io/blog/tag/terraform.html">Terraform</a> <a href="https://ta2gawa.github.io/blog/tag/aurora.html">Aurora</a> <a href="https://ta2gawa.github.io/blog/tag/zhui-ji-yu-ding.html">追記予定</a> </p>
-</footer><!-- /.post-info --><p>t系インスタンスはmax_connectionsのデフォルト値が極端に小さい
+</footer><!-- /.post-info -->      <p>t系インスタンスはmax_connectionsのデフォルト値が極端に小さい
 https://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Managing.Performance.html</p>
 <p>ZDP(Zero Downtime Patching)は実行するまで適用対象になるかわからない
 https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Updates.html#AuroraMySQL.Updates.ZDP</p>
 <p>AuroraはStandByレプリカが不要
 RDSの使用歴が長い人ほど勘違いしていまいがちであるが、AuroraはリードレプリカがWriterに自動昇格できるため、StanrByレプリカは不要
-(通常のMysql on RDSではこの機能は提供されていないのでStandByが必要)</p>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
+(通常のMysql on RDSではこの機能は提供されていないのでStandByが必要)</p>
+    </div><!-- /.entry-content -->
 
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://ta2gawa.github.io/blog/example-article.html" rel="bookmark"
-                           title="Permalink to Example Article">Example Article</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2000-01-01T01:00:00+09:00">
-                Published: 土 01 1月 2000
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://ta2gawa.github.io/blog/author/ta2gawa.html">ta2gawa</a>
-        </address>
-<p>In <a href="https://ta2gawa.github.io/blog/category/test.html">Test</a>.</p>
-
-</footer><!-- /.post-info -->                <p>Example article.</p>
-                <a class="readmore" href="https://ta2gawa.github.io/blog/example-article.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-                </ol><!-- /#posts-list -->
-                </section><!-- /#content -->
+  </article>
+</section>
         <section id="extras" class="body">
                 <div class="blogroll">
                         <h2>links</h2>
